@@ -11,4 +11,5 @@ router.register(r'uploaddicom', views.UploadDicomViewset)
 
 urlpatterns = [
     path('', include(router.urls)),    
+    path('model_output', views.model_call),
 ]

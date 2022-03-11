@@ -1,5 +1,9 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .App {
-  width: 50%;
+  width: 100%;
   text-align: center;
   align-items: center;
 }
